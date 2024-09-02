@@ -294,21 +294,21 @@ hr{
 }
 
 .markermodu {
-  font-size: 1.4rem; /* Tamaño de fuente más grande para hacer el texto más destacable */
-  font-weight: 600; /* Peso de fuente para hacerlo más prominente */
-  color: #333; /* Color gris oscuro para buena legibilidad */
-  text-align: center; /* Centra el texto horizontalmente */
-  margin-top: 20px; /* Espaciado superior para separar del contenido anterior */
-  padding: 10px 20px; /* Espaciado interno para hacer que el texto no esté pegado al borde */
-  border-radius: 8px; /* Bordes redondeados para un diseño más suave */
-  background-color: #e0f7fa; /* Fondo claro para resaltar el texto */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle profundidad */
-  transition: background-color 0.3s, transform 0.2s; /* Transición suave para efectos de hover */
+  font-size: 1.4rem; 
+  font-weight: 600; 
+  color: #333; 
+  text-align: center; 
+  margin-top: 20px; 
+  padding: 10px 20px; 
+  border-radius: 8px; 
+  background-color: #e0f7fa; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 .markermodu:hover {
-  background-color: #b2ebf2; /* Fondo más oscuro al pasar el cursor */
-  transform: translateY(-2px); /* Efecto de elevación al pasar el cursor */
+  background-color: #b2ebf2; 
+  transform: translateY(-2px); 
 }
 
 
@@ -373,9 +373,9 @@ hr{
 .main {
   padding: 0 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 60px; /* Asegura que el contenido no quede oculto detrás de la navbar sticky */
-  background-color: #f4f4f9; /* Fondo gris claro para contrastar con la navbar */
-  min-height: 100vh; /* Asegura que el main tenga al menos el alto de la ventana */
+  margin-top: 60px;
+  background-color: #f4f4f9;
+  min-height: 100vh;
 }
 
 /* Navbar styles */
@@ -383,15 +383,15 @@ hr{
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #ffffff; /* Fondo blanco para la navbar */
-  border-bottom: 1px solid #e0e0e0; /* Línea sutil debajo de la navbar */
-  padding: 10px 20px; /* Espaciado interno */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0; 
+  padding: 10px 20px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 .navContent {
   display: flex;
-  gap: 20px; /* Espacio entre los elementos de navegación */
+  gap: 20px; 
   align-items: center;
 }
 
@@ -401,7 +401,7 @@ hr{
 }
 
 .navbarItem a {
-  color: #0070f3; /* Color del enlace, cambia si usas otro esquema de colores */
+  color: #0070f3; 
   text-decoration: none;
   padding: 8px 12px;
   border-radius: 4px;
@@ -409,13 +409,13 @@ hr{
 }
 
 .navbarItem a:hover {
-  background-color: #e6f1ff; /* Fondo claro al pasar el cursor */
-  color: #0056b3; /* Color del texto al pasar el cursor */
+  background-color: #e6f1ff;
+  color: #0056b3; 
 }
 
 .navbarItem.isActive a {
-  background-color: #0070f3; /* Fondo del enlace activo */
-  color: #ffffff; /* Color del texto del enlace activo */
+  background-color: #0070f3;
+  color: #ffffff; 
 }
 
 /* Description and image styles */
@@ -427,7 +427,7 @@ hr{
 .markermodu {
   font-size: 1.2rem;
   color: #333;
-  margin-bottom: 20px; /* Espacio debajo del texto de bienvenida */
+  margin-bottom: 20px;
 }
 
 .imageContainer {
@@ -436,7 +436,7 @@ hr{
 
 .dogImage {
   margin-top: 50px;
-  border-radius: 8px; /* Bordes redondeados para la imagen */
+  border-radius: 8px;
   width: 50%;
   height: auto;
 }
