@@ -1,0 +1,117 @@
+/* styles/page.module.css */
+
+/* General page styles */
+.main {
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 60px; /* Asegura que el contenido no quede oculto detrás de la navbar sticky */
+  background-color: #f9f9f9; /* Fondo gris claro y neutro para un diseño moderno */
+  min-height: 100vh; /* Asegura que el main tenga al menos el alto de la ventana */
+}
+
+/* Description section styles */
+.description {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.description p {
+  font-size: 1.2rem;
+  color: #555; /* Un gris oscuro para mejor legibilidad */
+  line-height: 1.5; /* Mayor espaciado entre líneas para una lectura más cómoda */
+}
+
+/* Centered content styles */
+.center {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Navbar styles */
+.stickyNavbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff; /* Fondo blanco para la navbar */
+  border-bottom: 1px solid #e0e0e0; /* Línea sutil debajo de la navbar */
+  padding: 10px 20px; /* Espaciado interno */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra más prominente para un efecto de elevación */
+  transition: background-color 0.3s; /* Transición suave para cambios de color */
+}
+
+.stickyNavbar:hover {
+  background-color: #f8f9fa; /* Fondo ligeramente gris cuando se pasa el cursor sobre la navbar */
+}
+
+.navContent {
+  display: flex;
+  gap: 20px; /* Espacio entre los elementos de navegación */
+  align-items: center;
+}
+
+.navbarBrandText {
+  margin: 0;
+  font-size: 1.6rem; /* Tamaño de fuente ligeramente mayor para el branding */
+  font-weight: 700;
+  color: #333; /* Color del texto del branding */
+  text-transform: uppercase; /* Texto en mayúsculas para un estilo más impactante */
+}
+
+.navbarItem {
+  display: flex;
+  align-items: center;
+}
+
+.navbarItem a {
+  color: #0070f3; /* Color del enlace */
+  text-decoration: none;
+  padding: 10px 15px; /* Padding más amplio para un mejor clic y visualización */
+  border-radius: 6px; /* Bordes redondeados más pronunciados */
+  font-size: 1rem; /* Tamaño de fuente uniforme */
+  font-weight: 500; /* Peso de fuente intermedio */
+  transition: background-color 0.3s, color 0.3s, transform 0.2s; /* Transición para efectos visuales */
+}
+
+.navbarItem a:hover {
+  background-color: #e0f7ff; /* Fondo claro y fresco al pasar el cursor */
+  color: #0056b3; /* Color del texto más oscuro al pasar el cursor */
+  transform: translateY(-2px); /* Efecto de elevación al pasar el cursor */
+}
+
+.navbarItem.isActive a {
+  background-color: #0070f3; /* Fondo del enlace activo */
+  color: #ffffff; /* Color del texto del enlace activo */
+  font-weight: 600; /* Peso de fuente más fuerte para el enlace activo */
+}
+/* styles/page.module.css */
+
+/* Estilos para el texto de bienvenida */
+.markermodu {
+  font-size: 1.4rem; /* Tamaño de fuente más grande para hacer el texto más destacable */
+  font-weight: 600; /* Peso de fuente para hacerlo más prominente */
+  color: #333; /* Color gris oscuro para buena legibilidad */
+  text-align: center; /* Centra el texto horizontalmente */
+  margin-top: 20px; /* Espaciado superior para separar del contenido anterior */
+  padding: 10px 20px; /* Espaciado interno para hacer que el texto no esté pegado al borde */
+  border-radius: 8px; /* Bordes redondeados para un diseño más suave */
+  background-color: #e0f7fa; /* Fondo claro para resaltar el texto */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle profundidad */
+  transition: background-color 0.3s, transform 0.2s; /* Transición suave para efectos de hover */
+}
+
+.markermodu:hover {
+  background-color: #b2ebf2; /* Fondo más oscuro al pasar el cursor */
+  transform: translateY(-2px); /* Efecto de elevación al pasar el cursor */
+}
+
+.dogImage {
+  margin-top: 50px;
+  border-radius: 8px; /* Bordes redondeados para la imagen */
+  width: 20%;
+  height: auto;
+}

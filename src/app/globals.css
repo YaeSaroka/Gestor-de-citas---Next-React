@@ -5,39 +5,7 @@
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
 
-  --primary-glow: conic-gradient(
-    from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
-    transparent 360deg
-  );
-  --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
-  );
-
-  --tile-start-rgb: 239, 245, 249;
-  --tile-end-rgb: 228, 232, 233;
-  --tile-border: conic-gradient(
-    #00000080,
-    #00000040,
-    #00000030,
-    #00000020,
-    #00000010,
-    #00000010,
-    #00000080
-  );
-
-  --callout-rgb: 238, 240, 241;
-  --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -104,4 +72,371 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+
+/***  RESERVAS    ***/
+
+.app-container {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.tarjetas-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.cita {
+  background-color: white; 
+  color: black; 
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+  max-width: 400px; 
+  margin: 10px; 
+}
+
+.cita p {
+  margin: 10px 0; 
+}
+
+.cita span {
+  font-weight: bold; 
+}
+
+.cita button {
+  background-color: #dc35d4;
+  color: white; 
+  border: none;
+  padding: 10px; 
+  border-radius: 4px; 
+  cursor: pointer; 
+}
+
+.cita button:hover {
+  background-color: #c82333; 
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container {
+  margin-top: 20px;
+  flex: 1; 
+  padding-right: 20px; 
+}
+
+.tarjetas-container {
+  flex: 1;
+  padding-left: 20px; 
+}
+
+.asd {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+.asd label {
+  margin-bottom: 5px;
+}
+
+.asd input[type="text"],
+.asd input[type="date"],
+.asd input[type="time"],
+.asd textarea {
+  width: 500px; 
+  padding: 12px; 
+  margin-bottom: 15px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  max-width: 100%;
+}
+
+.asd button {
+  width: 100%; 
+  padding: 12px 20px; 
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px; 
+}
+
+.asd button:hover {
+  background-color: #0056b3;
+}
+
+
+.asd input[type="text"],
+.asd input[type="date"],
+.asd input[type="time"],
+.asd textarea,
+.asd button {
+  padding-left: 20px; 
+  padding-right: 20px; 
+}
+
+
+
+
+/******/
+.section {
+padding: 20px; 
+}
+
+#titulo_for{  
+  margin-bottom: 25px;
+  font-size: 40px;
+  color:#f39fd3;
+}
+
+hr{
+  margin-bottom: 50px;
+}
+
+.markermodu4 {
+  color: #000000; 
+  text-align: center; 
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.container-narrow {
+  max-width: 960px; 
+  margin: 0 auto; 
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-md-6 {
+  width: calc(50% - 20px); 
+  float: left;
+  margin-right: 20px; 
+  margin-bottom: 20px; 
+}
+
+.mt-53{
+  margin-top: 30px;
+}
+
+/* Estilos para el formulario */
+.bg-light {
+  background-color: #c2bad4; 
+  border: 1px solid #dee2e6;
+  border-radius: 8px; 
+  padding: 20px; 
+}
+
+.p-3 {
+  padding: 1rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+/* Estilos para los inputs */
+.input-container {
+  margin-bottom: 15px; 
+  margin-right: 10px;
+}
+
+.input-container label {
+  margin-top: 20px;
+  display: block; 
+  margin-bottom: 5px; 
+  color: black;
+}
+
+.input-container input[type="text"],
+.input-container input[type="date"],
+.input-container input[type="time"],
+.input-container textarea {
+  width: calc(100% - 10px); 
+  padding: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+}
+
+/* Estilos para los botones */
+.hola {
+  display: inline-block;
+  background-color: #cc5fc3 !important;
+  color: #524e4e; 
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 4px; 
+  cursor: pointer;
+  text-align: center; 
+  text-decoration: none; 
+  margin-bottom: 50px !important;
+}
+
+.hola:hover {
+  background-color: #ca29bd !important; 
+}
+
+.markermodu {
+  font-size: 1.4rem; /* Tamaño de fuente más grande para hacer el texto más destacable */
+  font-weight: 600; /* Peso de fuente para hacerlo más prominente */
+  color: #333; /* Color gris oscuro para buena legibilidad */
+  text-align: center; /* Centra el texto horizontalmente */
+  margin-top: 20px; /* Espaciado superior para separar del contenido anterior */
+  padding: 10px 20px; /* Espaciado interno para hacer que el texto no esté pegado al borde */
+  border-radius: 8px; /* Bordes redondeados para un diseño más suave */
+  background-color: #e0f7fa; /* Fondo claro para resaltar el texto */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle profundidad */
+  transition: background-color 0.3s, transform 0.2s; /* Transición suave para efectos de hover */
+}
+
+.markermodu:hover {
+  background-color: #b2ebf2; /* Fondo más oscuro al pasar el cursor */
+  transform: translateY(-2px); /* Efecto de elevación al pasar el cursor */
+}
+
+
+
+/****      CONTACTO         *****/
+
+.about-us-container {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #a77da8;
+  padding: 40px 0;
+}
+
+.about-us-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-us-title {
+  font-size: 2rem;
+  color: #d453fc;
+  margin-bottom: 40px;
+}
+
+.about-us-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.about-us-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-detail {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.detail-label {
+  font-weight: bold;
+}
+
+.detail-value {
+  font-size: 1.1rem;
+}
+
+.about-us-divider {
+  width: 2px;
+  height: 50px;
+  background-color: #d453fc;
+  margin: 0 20px;
+}
+
+
+/* styles/page.module.css */
+
+/* General page styles */
+.main {
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 60px; /* Asegura que el contenido no quede oculto detrás de la navbar sticky */
+  background-color: #f4f4f9; /* Fondo gris claro para contrastar con la navbar */
+  min-height: 100vh; /* Asegura que el main tenga al menos el alto de la ventana */
+}
+
+/* Navbar styles */
+.stickyNavbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff; /* Fondo blanco para la navbar */
+  border-bottom: 1px solid #e0e0e0; /* Línea sutil debajo de la navbar */
+  padding: 10px 20px; /* Espaciado interno */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.navContent {
+  display: flex;
+  gap: 20px; /* Espacio entre los elementos de navegación */
+  align-items: center;
+}
+
+.navbarItem {
+  display: flex;
+  align-items: center;
+}
+
+.navbarItem a {
+  color: #0070f3; /* Color del enlace, cambia si usas otro esquema de colores */
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbarItem a:hover {
+  background-color: #e6f1ff; /* Fondo claro al pasar el cursor */
+  color: #0056b3; /* Color del texto al pasar el cursor */
+}
+
+.navbarItem.isActive a {
+  background-color: #0070f3; /* Fondo del enlace activo */
+  color: #ffffff; /* Color del texto del enlace activo */
+}
+
+/* Description and image styles */
+.description {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.markermodu {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px; /* Espacio debajo del texto de bienvenida */
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+.dogImage {
+  margin-top: 50px;
+  border-radius: 8px; /* Bordes redondeados para la imagen */
+  width: 50%;
+  height: auto;
 }
