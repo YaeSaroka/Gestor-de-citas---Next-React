@@ -10,9 +10,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Navbar isBordered isBlurred={false} className={styles.stickyNavbar}>
-        <NavbarBrand>
-          {/* Optional: Add logo or brand name here */}
-        </NavbarBrand>
+     
         <NavbarContent className={styles.navContent} justify="center">
           {direcciones.map((direccion, index) => (
             <NavbarItem key={index} className={styles.navbarItem}>
@@ -26,7 +24,7 @@ export default function Home() {
           Bienvenido a nuestra página :D !&nbsp;
         </p>
           <Image
-            src="/dogs.png" // Ruta correcta a la imagen en la carpeta pública
+            src="/dogs.png" 
             alt="Cute dogs"
             width={600}
             height={400}
